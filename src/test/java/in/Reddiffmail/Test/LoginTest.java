@@ -40,7 +40,7 @@ public class LoginTest extends BasePage
 	@AfterMethod
 	public void End()
 	{
-		//driver.close();
+		driver.close();
 	}
 
 }

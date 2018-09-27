@@ -29,13 +29,13 @@ public class MobilePageTest extends BasePage
 		
 	}
 	
-	@Test(priority=1)
+	/*@Test(priority=1)
 	public void validatelogo() throws Exception
 	{	
 		mobilepage=new MobilesPage();
 		boolean flag1=mobilepage.verifyLogorediff();
 		System.out.println(flag1);
-	}
+	}*/
 	
 	@Test(priority=2)
 	public void verifyUrl()
