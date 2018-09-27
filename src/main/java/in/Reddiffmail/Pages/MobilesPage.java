@@ -16,10 +16,10 @@ public class MobilesPage extends BasePage
 		super();
 	}
 	
-	public boolean verifyLogorediff()
+	/*public boolean verifyLogorediff()
 	{
 		return logo1.isDisplayed();
-	}
+	}*/
 	
 	public String url()
 	{
