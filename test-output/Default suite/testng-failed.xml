@@ -3,13 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="in.Reddiffmail.Test.LoginTest">
+      <class name="in.Reddiffmail.Test.HomePageTest">
         <methods>
-          <include name="Start"/>
-          <include name="loginrediff"/>
+          <include name="vmobilelink"/>
+          <include name="start"/>
           <include name="End"/>
+          <include name="logo"/>
+          <include name="validatelogin"/>
         </methods>
-      </class> <!-- in.Reddiffmail.Test.LoginTest -->
+      </class> <!-- in.Reddiffmail.Test.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

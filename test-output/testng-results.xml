@@ -1,73 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Rediffmail Application Automation Test Suite" duration-ms="285670" started-at="2018-09-27T07:25:28Z" finished-at="2018-09-27T07:30:13Z">
+  <suite name="Default suite" duration-ms="142449" started-at="2018-10-04T10:39:15Z" finished-at="2018-10-04T10:41:37Z">
     <groups>
     </groups>
-    <test name="RediffMail Application Test" duration-ms="285670" started-at="2018-09-27T07:25:28Z" finished-at="2018-09-27T07:30:13Z">
-      <class name="in.Reddiffmail.Test.LoginTest">
-        <test-method status="PASS" signature="Start()[pri:0, instance:in.Reddiffmail.Test.LoginTest@77caeb3e]" name="Start" is-config="true" duration-ms="46031" started-at="2018-09-27T07:26:29Z" finished-at="2018-09-27T07:27:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Start -->
-        <test-method status="PASS" signature="loginrediff()[pri:1, instance:in.Reddiffmail.Test.LoginTest@77caeb3e]" name="loginrediff" duration-ms="5083" started-at="2018-09-27T07:27:15Z" finished-at="2018-09-27T07:27:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginrediff -->
-        <test-method status="PASS" signature="End()[pri:0, instance:in.Reddiffmail.Test.LoginTest@77caeb3e]" name="End" is-config="true" duration-ms="1026" started-at="2018-09-27T07:27:20Z" finished-at="2018-09-27T07:27:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- End -->
-      </class> <!-- in.Reddiffmail.Test.LoginTest -->
-      <class name="in.Reddiffmail.Test.HomePageTest">
-        <test-method status="PASS" signature="start()[pri:0, instance:in.Reddiffmail.Test.HomePageTest@66a3ffec]" name="start" is-config="true" duration-ms="59686" started-at="2018-09-27T07:25:28Z" finished-at="2018-09-27T07:26:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method status="PASS" signature="logo()[pri:1, instance:in.Reddiffmail.Test.HomePageTest@66a3ffec]" name="logo" duration-ms="303" started-at="2018-09-27T07:26:28Z" finished-at="2018-09-27T07:26:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logo -->
-        <test-method status="PASS" signature="End()[pri:0, instance:in.Reddiffmail.Test.HomePageTest@66a3ffec]" name="End" is-config="true" duration-ms="1307" started-at="2018-09-27T07:26:28Z" finished-at="2018-09-27T07:26:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- End -->
-        <test-method status="PASS" signature="start()[pri:0, instance:in.Reddiffmail.Test.HomePageTest@66a3ffec]" name="start" is-config="true" duration-ms="46780" started-at="2018-09-27T07:27:21Z" finished-at="2018-09-27T07:28:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method status="PASS" signature="vmobilelink()[pri:2, instance:in.Reddiffmail.Test.HomePageTest@66a3ffec]" name="vmobilelink" duration-ms="12903" started-at="2018-09-27T07:28:08Z" finished-at="2018-09-27T07:28:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- vmobilelink -->
-        <test-method status="PASS" signature="End()[pri:0, instance:in.Reddiffmail.Test.HomePageTest@66a3ffec]" name="End" is-config="true" duration-ms="1484" started-at="2018-09-27T07:28:21Z" finished-at="2018-09-27T07:28:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- End -->
-        <test-method status="PASS" signature="start()[pri:0, instance:in.Reddiffmail.Test.HomePageTest@66a3ffec]" name="start" is-config="true" duration-ms="50031" started-at="2018-09-27T07:29:12Z" finished-at="2018-09-27T07:30:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method status="PASS" signature="validatelogin()[pri:3, instance:in.Reddiffmail.Test.HomePageTest@66a3ffec]" name="validatelogin" duration-ms="10134" started-at="2018-09-27T07:30:02Z" finished-at="2018-09-27T07:30:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validatelogin -->
-        <test-method status="PASS" signature="End()[pri:0, instance:in.Reddiffmail.Test.HomePageTest@66a3ffec]" name="End" is-config="true" duration-ms="1485" started-at="2018-09-27T07:30:12Z" finished-at="2018-09-27T07:30:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- End -->
-      </class> <!-- in.Reddiffmail.Test.HomePageTest -->
+    <test name="Default test" duration-ms="142449" started-at="2018-10-04T10:39:15Z" finished-at="2018-10-04T10:41:37Z">
       <class name="in.Reddiffmail.Test.MobilePageTest">
-        <test-method status="PASS" signature="Start()[pri:0, instance:in.Reddiffmail.Test.MobilePageTest@1e88b3c]" name="Start" is-config="true" duration-ms="48747" started-at="2018-09-27T07:28:22Z" finished-at="2018-09-27T07:29:11Z">
+        <test-method status="PASS" signature="Start()[pri:0, instance:in.Reddiffmail.Test.MobilePageTest@66a3ffec]" name="Start" is-config="true" duration-ms="141954" started-at="2018-10-04T10:39:15Z" finished-at="2018-10-04T10:41:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Start -->
-        <test-method status="PASS" signature="verifyUrl()[pri:2, instance:in.Reddiffmail.Test.MobilePageTest@1e88b3c]" name="verifyUrl" duration-ms="481" started-at="2018-09-27T07:29:11Z" finished-at="2018-09-27T07:29:12Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:3, instance:in.Reddiffmail.Test.MobilePageTest@66a3ffec]" name="verifyTitle" duration-ms="353" started-at="2018-10-04T10:41:37Z" finished-at="2018-10-04T10:41:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUrl -->
+        </test-method> <!-- verifyTitle -->
       </class> <!-- in.Reddiffmail.Test.MobilePageTest -->
-    </test> <!-- RediffMail Application Test -->
-  </suite> <!-- Rediffmail Application Automation Test Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

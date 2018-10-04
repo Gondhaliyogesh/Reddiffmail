@@ -3,6 +3,7 @@ package in.Rediffmail.BasePage;
 
 import java.io.FileInputStream;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,7 +16,8 @@ public class BasePage
 
 	public BasePage() throws Exception
 	{
-		FileInputStream fis=new FileInputStream("F:\\JenkinsProject\\Reddiffmail\\src\\main\\java\\in\\Rediffmail\\config\\config.properties");
+		FileInputStream fis=new FileInputStream("F:\\JenkinsProject\\Reddiffmail\\src\\main\\java"
+												 + "\\in\\Rediffmail\\config\\config.properties");
 		prop=new Properties();
 		prop.load(fis);
 	}
@@ -42,12 +44,12 @@ public class BasePage
 		
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
+		/*driver.manage().timeouts().pageLoadTimeout(50,TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);*/
 		
 		driver.get(prop.getProperty("URL"));
 		
-		
-		
-	}
+		}
 
 
 }

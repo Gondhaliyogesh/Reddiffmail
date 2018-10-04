@@ -29,13 +29,13 @@ public class MobilePageTest extends BasePage
 		
 	}
 	
-	/*@Test(priority=1)
+	@Test(priority=1)
 	public void validatelogo() throws Exception
 	{	
 		mobilepage=new MobilesPage();
 		boolean flag1=mobilepage.verifyLogorediff();
 		System.out.println(flag1);
-	}*/
+	}
 	
 	@Test(priority=2)
 	public void verifyUrl()
@@ -43,5 +43,13 @@ public class MobilePageTest extends BasePage
 		String url=mobilepage.url();
 		System.out.println(url);
 	}
+	
+	@Test(priority=3)
+	public void verifyTitle()
+	{
+		String title=mobilepage.title();
+		System.out.println(title);
+	}
+	
 
 }
