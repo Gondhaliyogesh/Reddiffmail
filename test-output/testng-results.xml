@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="142449" started-at="2018-10-04T10:39:15Z" finished-at="2018-10-04T10:41:37Z">
+  <suite name="Default suite" duration-ms="114093" started-at="2018-10-04T11:42:59Z" finished-at="2018-10-04T11:44:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="142449" started-at="2018-10-04T10:39:15Z" finished-at="2018-10-04T10:41:37Z">
+    <test name="Default test" duration-ms="114093" started-at="2018-10-04T11:42:59Z" finished-at="2018-10-04T11:44:53Z">
       <class name="in.Reddiffmail.Test.MobilePageTest">
-        <test-method status="PASS" signature="Start()[pri:0, instance:in.Reddiffmail.Test.MobilePageTest@66a3ffec]" name="Start" is-config="true" duration-ms="141954" started-at="2018-10-04T10:39:15Z" finished-at="2018-10-04T10:41:37Z">
+        <test-method status="PASS" signature="Start()[pri:0, instance:in.Reddiffmail.Test.MobilePageTest@66a3ffec]" name="Start" is-config="true" duration-ms="111672" started-at="2018-10-04T11:42:59Z" finished-at="2018-10-04T11:44:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Start -->
-        <test-method status="PASS" signature="verifyTitle()[pri:3, instance:in.Reddiffmail.Test.MobilePageTest@66a3ffec]" name="verifyTitle" duration-ms="353" started-at="2018-10-04T10:41:37Z" finished-at="2018-10-04T10:41:37Z">
+        <test-method status="PASS" signature="validatelogo()[pri:1, instance:in.Reddiffmail.Test.MobilePageTest@66a3ffec]" name="validatelogo" duration-ms="2306" started-at="2018-10-04T11:44:51Z" finished-at="2018-10-04T11:44:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTitle -->
+        </test-method> <!-- validatelogo -->
       </class> <!-- in.Reddiffmail.Test.MobilePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
