@@ -17,6 +17,8 @@ public class HomePage extends BasePage
 	@FindBy(xpath="//*[@id=\"topcat3\"]")
 	private WebElement mobile_link;
 	
+	@FindBy(partialLinkText="Men's Lifestyle")
+	private WebElement mens_lifistyle;
 	
 	public HomePage() throws Exception
 	{
@@ -37,6 +39,11 @@ public class HomePage extends BasePage
 	{
 		mobile_link.click();
 		return new MobilesPage();
+	}
+	
+	public void Mens_Lifestyle_Link()
+	{
+		mens_lifistyle.click();
 	}
 	
 

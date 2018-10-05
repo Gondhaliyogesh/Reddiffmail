@@ -52,6 +52,7 @@ public class MobilePageTest extends BasePage
 		System.out.println(title);
 	}
 	
+	
 	@AfterMethod
 	public void close()
 	{

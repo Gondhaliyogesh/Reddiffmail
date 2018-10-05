@@ -48,6 +48,12 @@ public class HomePageTest extends BasePage
 	{
 		mobilepage=homepage.Mobiles_Link();
 	}
+	@Test(priority=4)
+	public void verifymeslifestyle()
+	{
+		homepage.Mens_Lifestyle_Link();
+		System.out.println("Suceessfully Click on Mens's Lifestyle link");
+	}
 	
 	@AfterMethod
 	public void End()
