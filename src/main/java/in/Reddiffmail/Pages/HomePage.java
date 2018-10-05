@@ -20,6 +20,9 @@ public class HomePage extends BasePage
 	@FindBy(partialLinkText="Men's Lifestyle")
 	private WebElement mens_lifistyle;
 	
+	@FindBy(partialLinkText="Women's Lifestyle")
+	private WebElement womens_lifestyle;
+	
 	public HomePage() throws Exception
 	{
 		PageFactory.initElements(driver, this);
@@ -44,6 +47,10 @@ public class HomePage extends BasePage
 	public void Mens_Lifestyle_Link()
 	{
 		mens_lifistyle.click();
+	}
+	public void Womens_Lifestyle_Link()
+	{
+		womens_lifestyle.click();
 	}
 	
 

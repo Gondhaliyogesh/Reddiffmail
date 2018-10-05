@@ -55,6 +55,12 @@ public class HomePageTest extends BasePage
 		System.out.println("Suceessfully Click on Mens's Lifestyle link");
 	}
 	
+	@Test(priority=5)
+	public void verifywomeneslifestyle()
+	{
+		homepage.Womens_Lifestyle_Link();
+		System.out.println("Suceessfully Click on Women's Lifestyle link");
+	}
 	@AfterMethod
 	public void End()
 	{
