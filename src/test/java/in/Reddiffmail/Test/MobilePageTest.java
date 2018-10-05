@@ -1,5 +1,6 @@
 package in.Reddiffmail.Test;
 
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -49,6 +50,12 @@ public class MobilePageTest extends BasePage
 	{
 		String title=mobilepage.title();
 		System.out.println(title);
+	}
+	
+	@AfterMethod
+	public void close()
+	{
+		driver.quit();
 	}
 	
 

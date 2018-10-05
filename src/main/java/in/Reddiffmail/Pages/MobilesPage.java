@@ -8,7 +8,7 @@ import in.Rediffmail.BasePage.BasePage;
 
 public class MobilesPage extends BasePage
 {
-	@FindBy (xpath="/html/body/div[1]/div[1]/div[3]/div/a/img")
+	@FindBy (xpath="//a/img[@class='shsprite shoptoplogo']")
 	private WebElement logo1;
 	
 	

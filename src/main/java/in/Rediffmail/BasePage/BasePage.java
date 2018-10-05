@@ -7,7 +7,9 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 
 public class BasePage
 {
@@ -28,12 +30,19 @@ public class BasePage
 		if(browsername.equals("chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver", "F:\\MyFrameworks\\chromedriver.exe");
-			driver=new ChromeDriver();
+			
+			ChromeOptions options=new ChromeOptions();
+			options.addArguments("headless");
+			
+			driver=new ChromeDriver(options);
 			System.out.println("Launch Chrome Successfully");
 		}
 		else if(browsername.equals("firefox"))
 		{
-			driver=new FirefoxDriver();
+			FirefoxOptions option=new FirefoxOptions();
+			option.addArguments("headless");
+			
+			driver=new FirefoxDriver(option);
 			System.out.println("Launch Firefox Successfully");
 		}
 		else
