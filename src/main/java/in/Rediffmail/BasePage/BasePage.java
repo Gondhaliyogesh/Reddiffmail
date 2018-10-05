@@ -30,19 +30,13 @@ public class BasePage
 		if(browsername.equals("chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver", "F:\\MyFrameworks\\chromedriver.exe");
-			
-			ChromeOptions options=new ChromeOptions();
-			options.addArguments("headless");
-			
-			driver=new ChromeDriver(options);
+			driver=new ChromeDriver();
 			System.out.println("Launch Chrome Successfully");
 		}
 		else if(browsername.equals("firefox"))
 		{
-			FirefoxOptions option=new FirefoxOptions();
-			option.addArguments("headless");
 			
-			driver=new FirefoxDriver(option);
+			driver=new FirefoxDriver();
 			System.out.println("Launch Firefox Successfully");
 		}
 		else
