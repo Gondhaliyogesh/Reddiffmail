@@ -23,6 +23,18 @@ public class HomePage extends BasePage
 	@FindBy(partialLinkText="Women's Lifestyle")
 	private WebElement womens_lifestyle;
 	
+	@FindBy(partialLinkText="Electronics")
+	private WebElement electronics;
+	
+	@FindBy(partialLinkText="Watches")
+	private WebElement watches;
+	
+	@FindBy(partialLinkText="Home & Decor")
+	private WebElement homed_decor;
+	
+	@FindBy(partialLinkText="Personal Care")
+	private WebElement personal_care;
+	
 	public HomePage() throws Exception
 	{
 		PageFactory.initElements(driver, this);
@@ -53,5 +65,23 @@ public class HomePage extends BasePage
 		womens_lifestyle.click();
 	}
 	
+	public void Electronics_Link()
+	{
+		electronics.click();
+	}
 
+	public void Watches_link()
+	{
+		watches.click();
+	}
+	
+	public void HomeDecore_link()
+	{
+		homed_decor.click();
+	}
+	
+	public void PersonalCare_Link()
+	{
+		personal_care.click();
+	}
 }

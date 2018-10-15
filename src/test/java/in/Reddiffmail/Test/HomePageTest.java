@@ -48,6 +48,7 @@ public class HomePageTest extends BasePage
 	{
 		mobilepage=homepage.Mobiles_Link();
 	}
+	
 	@Test(priority=4)
 	public void verifymeslifestyle()
 	{
@@ -61,6 +62,33 @@ public class HomePageTest extends BasePage
 		homepage.Womens_Lifestyle_Link();
 		System.out.println("Suceessfully Click on Women's Lifestyle link");
 	}
+	
+	@Test(priority=6)
+	public void verifyelectronics()
+	{
+		homepage.Electronics_Link();
+		System.out.println("Suceessfully Click on Electronics link");
+	}
+	@Test(priority=7)
+	public void verifywateches()
+	{
+		homepage.Watches_link();
+		System.out.println("Suceessfully Click on Watches link");
+	}
+	@Test(priority=8)
+	public void verifyhomeanddecore()
+	{
+		homepage.HomeDecore_link();
+		System.out.println("Suceessfully Click on HomeDecore_link ");
+	}
+	
+	@Test(priority=9)
+	public void verifypersonalcare()
+	{
+		homepage.PersonalCare_Link();
+		System.out.println("Suceessfully Click on PersonalCare_Link ");
+	}
+	
 	@AfterMethod
 	public void End()
 	{
