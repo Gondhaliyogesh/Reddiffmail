@@ -1,14 +1,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Rediffmail Application Automation Test Suite">
 
-<listeners>
+	<listeners>
 		<listener
 			class-name="in.Rediffmail.ExtentReportListener.ExtentReporterNG" />
 	</listeners>
 	<test name="RediffMail Application Test">
 		<classes>
-			<!-- <class name="in.Reddiffmail.Test.HomePageTest" />
-			<class name="in.Reddiffmail.Test.LoginTest" />  -->
+			<class name="in.Reddiffmail.Test.HomePageTest" />
+			<class name="in.Reddiffmail.Test.LoginTest" />
 			<class name="in.Reddiffmail.Test.MobilePageTest" />
 		</classes>
 	</test>
