@@ -50,7 +50,7 @@ public class MobilePageTest extends BasePage
 	{
 		String title=mobilepage.title();
 		System.out.println(title);
-		System.out.println("Title is");
+		
 	}
 	
 	

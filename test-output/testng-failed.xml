@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Rediffmail Application Automation Test Suite]">
-  <listeners>
-    <listener class-name="in.Rediffmail.ExtentReportListener.ExtentReporterNG"/>
-  </listeners>
-  <test thread-count="5" name="RediffMail Application Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="in.Reddiffmail.Test.MobilePageTest">
+      <class name="in.Reddiffmail.Test.HomePageTest">
         <methods>
-          <include name="verifyTitle"/>
-          <include name="close"/>
-          <include name="verifyUrl"/>
-          <include name="Start"/>
+          <include name="verifyhomeanddecore"/>
+          <include name="verifywomeneslifestyle"/>
+          <include name="verifypersonalcare"/>
+          <include name="start"/>
+          <include name="End"/>
+          <include name="verifyelectronics"/>
+          <include name="verifymeslifestyle"/>
+          <include name="verifywateches"/>
+          <include name="validatelogin"/>
         </methods>
-      </class> <!-- in.Reddiffmail.Test.MobilePageTest -->
+      </class> <!-- in.Reddiffmail.Test.HomePageTest -->
     </classes>
-  </test> <!-- RediffMail Application Test(failed) -->
-</suite> <!-- Failed suite [Rediffmail Application Automation Test Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

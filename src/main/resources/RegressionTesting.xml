@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Testing">
+	
+	<listeners>
+		<listener
+			class-name="in.Rediffmail.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+	
+	<test name="Rediffmail Application Testing">
+		
+		<classes>
+			<class name="in.Reddiffmail.Test.HomePageTest"></class>
+		</classes>
+	</test>
+
+</suite>

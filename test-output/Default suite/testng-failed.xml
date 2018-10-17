@@ -5,9 +5,15 @@
     <classes>
       <class name="in.Reddiffmail.Test.HomePageTest">
         <methods>
+          <include name="verifyhomeanddecore"/>
+          <include name="verifywomeneslifestyle"/>
+          <include name="verifypersonalcare"/>
           <include name="start"/>
           <include name="End"/>
+          <include name="verifyelectronics"/>
+          <include name="verifymeslifestyle"/>
           <include name="verifywateches"/>
+          <include name="validatelogin"/>
         </methods>
       </class> <!-- in.Reddiffmail.Test.HomePageTest -->
     </classes>
