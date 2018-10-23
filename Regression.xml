@@ -7,5 +7,5 @@
       <class name="in.Reddiffmail.Test.LoginTest"/>
       <class name="in.Reddiffmail.Test.HomePageTest"/>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </test> 
+</suite> 
