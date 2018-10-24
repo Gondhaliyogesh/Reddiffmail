@@ -30,7 +30,7 @@ public class MobilePageTest extends BasePage
 		
 	}
 	
-	@Test(priority=1)
+	@Test
 	public void validatelogo() throws Exception
 	{	
 		mobilepage=new MobilesPage();
@@ -38,14 +38,14 @@ public class MobilePageTest extends BasePage
 		System.out.println(flag1);
 	}
 	
-	@Test(priority=2)
+	@Test
 	public void verifyUrl()
 	{
 		String url=mobilepage.url();
 		System.out.println(url);
 	}
 	
-	@Test(priority=3)
+	@Test
 	public void verifyTitle()
 	{
 		String title=mobilepage.title();
