@@ -29,7 +29,7 @@ public class LoginTest extends BasePage
 		login=homepage.Verifylogin();
 	}
 	
-	@Test(priority=1)
+	@Test
 	public void loginrediff() throws Exception
 	{	
 		login=new LoginPage();
