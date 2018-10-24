@@ -1,45 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="108374" started-at="2018-10-24T07:41:09Z" finished-at="2018-10-24T07:42:57Z">
+  <suite name="Suite" duration-ms="384548" started-at="2018-10-24T08:16:31Z" finished-at="2018-10-24T08:22:55Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="108374" started-at="2018-10-24T07:41:09Z" finished-at="2018-10-24T07:42:57Z">
+    <test name="Test" duration-ms="384548" started-at="2018-10-24T08:16:31Z" finished-at="2018-10-24T08:22:55Z">
+      <class name="in.Reddiffmail.Test.HomePageTest">
+        <test-method status="PASS" signature="start()[pri:0, instance:in.Reddiffmail.Test.HomePageTest@5442a311]" name="start" is-config="true" duration-ms="20577" started-at="2018-10-24T08:17:15Z" finished-at="2018-10-24T08:17:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="logo()[pri:1, instance:in.Reddiffmail.Test.HomePageTest@5442a311]" name="logo" duration-ms="394" started-at="2018-10-24T08:17:36Z" finished-at="2018-10-24T08:17:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logo -->
+        <test-method status="PASS" signature="End()[pri:0, instance:in.Reddiffmail.Test.HomePageTest@5442a311]" name="End" is-config="true" duration-ms="1304" started-at="2018-10-24T08:17:36Z" finished-at="2018-10-24T08:17:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+        <test-method status="PASS" signature="start()[pri:0, instance:in.Reddiffmail.Test.HomePageTest@5442a311]" name="start" is-config="true" duration-ms="23651" started-at="2018-10-24T08:18:09Z" finished-at="2018-10-24T08:18:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="vmobilelink()[pri:2, instance:in.Reddiffmail.Test.HomePageTest@5442a311]" name="vmobilelink" duration-ms="9169" started-at="2018-10-24T08:18:33Z" finished-at="2018-10-24T08:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vmobilelink -->
+        <test-method status="PASS" signature="End()[pri:0, instance:in.Reddiffmail.Test.HomePageTest@5442a311]" name="End" is-config="true" duration-ms="1436" started-at="2018-10-24T08:18:42Z" finished-at="2018-10-24T08:18:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+        <test-method status="PASS" signature="start()[pri:0, instance:in.Reddiffmail.Test.HomePageTest@5442a311]" name="start" is-config="true" duration-ms="18954" started-at="2018-10-24T08:19:14Z" finished-at="2018-10-24T08:19:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="validatelogin()[pri:3, instance:in.Reddiffmail.Test.HomePageTest@5442a311]" name="validatelogin" duration-ms="3078" started-at="2018-10-24T08:19:33Z" finished-at="2018-10-24T08:19:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatelogin -->
+        <test-method status="PASS" signature="End()[pri:0, instance:in.Reddiffmail.Test.HomePageTest@5442a311]" name="End" is-config="true" duration-ms="1501" started-at="2018-10-24T08:19:36Z" finished-at="2018-10-24T08:19:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+        <test-method status="PASS" signature="start()[pri:0, instance:in.Reddiffmail.Test.HomePageTest@5442a311]" name="start" is-config="true" duration-ms="19519" started-at="2018-10-24T08:19:38Z" finished-at="2018-10-24T08:19:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="verifymeslifestyle()[pri:4, instance:in.Reddiffmail.Test.HomePageTest@5442a311]" name="verifymeslifestyle" duration-ms="10132" started-at="2018-10-24T08:19:57Z" finished-at="2018-10-24T08:20:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifymeslifestyle -->
+        <test-method status="PASS" signature="End()[pri:0, instance:in.Reddiffmail.Test.HomePageTest@5442a311]" name="End" is-config="true" duration-ms="1479" started-at="2018-10-24T08:20:07Z" finished-at="2018-10-24T08:20:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+        <test-method status="PASS" signature="start()[pri:0, instance:in.Reddiffmail.Test.HomePageTest@5442a311]" name="start" is-config="true" duration-ms="28935" started-at="2018-10-24T08:20:09Z" finished-at="2018-10-24T08:20:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="verifywomeneslifestyle()[pri:5, instance:in.Reddiffmail.Test.HomePageTest@5442a311]" name="verifywomeneslifestyle" duration-ms="13134" started-at="2018-10-24T08:20:38Z" finished-at="2018-10-24T08:20:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifywomeneslifestyle -->
+        <test-method status="PASS" signature="End()[pri:0, instance:in.Reddiffmail.Test.HomePageTest@5442a311]" name="End" is-config="true" duration-ms="1504" started-at="2018-10-24T08:20:51Z" finished-at="2018-10-24T08:20:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+        <test-method status="PASS" signature="start()[pri:0, instance:in.Reddiffmail.Test.HomePageTest@5442a311]" name="start" is-config="true" duration-ms="24536" started-at="2018-10-24T08:20:52Z" finished-at="2018-10-24T08:21:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="verifyelectronics()[pri:6, instance:in.Reddiffmail.Test.HomePageTest@5442a311]" name="verifyelectronics" duration-ms="7669" started-at="2018-10-24T08:21:17Z" finished-at="2018-10-24T08:21:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyelectronics -->
+        <test-method status="PASS" signature="End()[pri:0, instance:in.Reddiffmail.Test.HomePageTest@5442a311]" name="End" is-config="true" duration-ms="1365" started-at="2018-10-24T08:21:25Z" finished-at="2018-10-24T08:21:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+        <test-method status="PASS" signature="start()[pri:0, instance:in.Reddiffmail.Test.HomePageTest@5442a311]" name="start" is-config="true" duration-ms="18742" started-at="2018-10-24T08:21:26Z" finished-at="2018-10-24T08:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="verifywateches()[pri:7, instance:in.Reddiffmail.Test.HomePageTest@5442a311]" name="verifywateches" duration-ms="9247" started-at="2018-10-24T08:21:45Z" finished-at="2018-10-24T08:21:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifywateches -->
+        <test-method status="PASS" signature="End()[pri:0, instance:in.Reddiffmail.Test.HomePageTest@5442a311]" name="End" is-config="true" duration-ms="1395" started-at="2018-10-24T08:21:54Z" finished-at="2018-10-24T08:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+        <test-method status="PASS" signature="start()[pri:0, instance:in.Reddiffmail.Test.HomePageTest@5442a311]" name="start" is-config="true" duration-ms="20569" started-at="2018-10-24T08:21:55Z" finished-at="2018-10-24T08:22:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="verifyhomeanddecore()[pri:8, instance:in.Reddiffmail.Test.HomePageTest@5442a311]" name="verifyhomeanddecore" duration-ms="8203" started-at="2018-10-24T08:22:16Z" finished-at="2018-10-24T08:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhomeanddecore -->
+        <test-method status="PASS" signature="End()[pri:0, instance:in.Reddiffmail.Test.HomePageTest@5442a311]" name="End" is-config="true" duration-ms="1387" started-at="2018-10-24T08:22:24Z" finished-at="2018-10-24T08:22:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+        <test-method status="PASS" signature="start()[pri:0, instance:in.Reddiffmail.Test.HomePageTest@5442a311]" name="start" is-config="true" duration-ms="17796" started-at="2018-10-24T08:22:26Z" finished-at="2018-10-24T08:22:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="verifypersonalcare()[pri:9, instance:in.Reddiffmail.Test.HomePageTest@5442a311]" name="verifypersonalcare" duration-ms="10135" started-at="2018-10-24T08:22:43Z" finished-at="2018-10-24T08:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifypersonalcare -->
+        <test-method status="PASS" signature="End()[pri:0, instance:in.Reddiffmail.Test.HomePageTest@5442a311]" name="End" is-config="true" duration-ms="1498" started-at="2018-10-24T08:22:54Z" finished-at="2018-10-24T08:22:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- in.Reddiffmail.Test.HomePageTest -->
       <class name="in.Reddiffmail.Test.MobilePageTest">
-        <test-method status="PASS" signature="Start()[pri:0, instance:in.Reddiffmail.Test.MobilePageTest@57baeedf]" name="Start" is-config="true" duration-ms="39608" started-at="2018-10-24T07:41:09Z" finished-at="2018-10-24T07:41:48Z">
+        <test-method status="PASS" signature="Start()[pri:0, instance:in.Reddiffmail.Test.MobilePageTest@53b32d7]" name="Start" is-config="true" duration-ms="42770" started-at="2018-10-24T08:16:31Z" finished-at="2018-10-24T08:17:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Start -->
-        <test-method status="PASS" signature="validatelogo()[pri:1, instance:in.Reddiffmail.Test.MobilePageTest@57baeedf]" name="validatelogo" duration-ms="781" started-at="2018-10-24T07:41:48Z" finished-at="2018-10-24T07:41:49Z">
+        <test-method status="PASS" signature="validatelogo()[pri:1, instance:in.Reddiffmail.Test.MobilePageTest@53b32d7]" name="validatelogo" duration-ms="725" started-at="2018-10-24T08:17:13Z" finished-at="2018-10-24T08:17:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatelogo -->
-        <test-method status="PASS" signature="close()[pri:0, instance:in.Reddiffmail.Test.MobilePageTest@57baeedf]" name="close" is-config="true" duration-ms="1696" started-at="2018-10-24T07:41:49Z" finished-at="2018-10-24T07:41:51Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:in.Reddiffmail.Test.MobilePageTest@53b32d7]" name="close" is-config="true" duration-ms="1211" started-at="2018-10-24T08:17:14Z" finished-at="2018-10-24T08:17:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="Start()[pri:0, instance:in.Reddiffmail.Test.MobilePageTest@57baeedf]" name="Start" is-config="true" duration-ms="33611" started-at="2018-10-24T07:41:51Z" finished-at="2018-10-24T07:42:25Z">
+        <test-method status="PASS" signature="Start()[pri:0, instance:in.Reddiffmail.Test.MobilePageTest@53b32d7]" name="Start" is-config="true" duration-ms="29959" started-at="2018-10-24T08:17:38Z" finished-at="2018-10-24T08:18:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Start -->
-        <test-method status="PASS" signature="verifyUrl()[pri:2, instance:in.Reddiffmail.Test.MobilePageTest@57baeedf]" name="verifyUrl" duration-ms="665" started-at="2018-10-24T07:42:25Z" finished-at="2018-10-24T07:42:25Z">
+        <test-method status="PASS" signature="verifyUrl()[pri:2, instance:in.Reddiffmail.Test.MobilePageTest@53b32d7]" name="verifyUrl" duration-ms="71" started-at="2018-10-24T08:18:08Z" finished-at="2018-10-24T08:18:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUrl -->
-        <test-method status="PASS" signature="close()[pri:0, instance:in.Reddiffmail.Test.MobilePageTest@57baeedf]" name="close" is-config="true" duration-ms="1499" started-at="2018-10-24T07:42:25Z" finished-at="2018-10-24T07:42:27Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:in.Reddiffmail.Test.MobilePageTest@53b32d7]" name="close" is-config="true" duration-ms="1484" started-at="2018-10-24T08:18:08Z" finished-at="2018-10-24T08:18:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="Start()[pri:0, instance:in.Reddiffmail.Test.MobilePageTest@57baeedf]" name="Start" is-config="true" duration-ms="28126" started-at="2018-10-24T07:42:27Z" finished-at="2018-10-24T07:42:55Z">
+        <test-method status="PASS" signature="Start()[pri:0, instance:in.Reddiffmail.Test.MobilePageTest@53b32d7]" name="Start" is-config="true" duration-ms="29165" started-at="2018-10-24T08:18:43Z" finished-at="2018-10-24T08:19:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Start -->
-        <test-method status="PASS" signature="verifyTitle()[pri:3, instance:in.Reddiffmail.Test.MobilePageTest@57baeedf]" name="verifyTitle" duration-ms="472" started-at="2018-10-24T07:42:55Z" finished-at="2018-10-24T07:42:55Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:3, instance:in.Reddiffmail.Test.MobilePageTest@53b32d7]" name="verifyTitle" duration-ms="143" started-at="2018-10-24T08:19:13Z" finished-at="2018-10-24T08:19:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="close()[pri:0, instance:in.Reddiffmail.Test.MobilePageTest@57baeedf]" name="close" is-config="true" duration-ms="1747" started-at="2018-10-24T07:42:55Z" finished-at="2018-10-24T07:42:57Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:in.Reddiffmail.Test.MobilePageTest@53b32d7]" name="close" is-config="true" duration-ms="1508" started-at="2018-10-24T08:19:13Z" finished-at="2018-10-24T08:19:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
