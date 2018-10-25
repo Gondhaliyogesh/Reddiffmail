@@ -5,7 +5,7 @@
 <listener class-name="in.Rediffmail.ExtentReportListener.ExtentReporterNG" />
 </listeners>
 	
-	<test thread-count="5" name="Test">
+	<test thread-count="1" name="Test">
 		<classes>
 			<class name="in.Reddiffmail.Test.MobilePageTest" />
 			<class name="in.Reddiffmail.Test.LoginTest" />
