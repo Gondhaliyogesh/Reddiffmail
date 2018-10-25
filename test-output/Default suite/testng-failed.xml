@@ -3,19 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="in.Reddiffmail.Test.HomePageTest">
+      <class name="in.Reddiffmail.Test.HealthandFitnesspageTest">
         <methods>
-          <include name="verifyhomeanddecore"/>
-          <include name="verifywomeneslifestyle"/>
-          <include name="verifypersonalcare"/>
+          <include name="verifytitle"/>
           <include name="start"/>
-          <include name="End"/>
-          <include name="verifyelectronics"/>
-          <include name="verifymeslifestyle"/>
-          <include name="verifywateches"/>
-          <include name="validatelogin"/>
         </methods>
-      </class> <!-- in.Reddiffmail.Test.HomePageTest -->
+      </class> <!-- in.Reddiffmail.Test.HealthandFitnesspageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

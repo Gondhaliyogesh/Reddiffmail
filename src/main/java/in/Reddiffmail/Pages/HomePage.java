@@ -62,13 +62,16 @@ public class HomePage extends BasePage
 		return new MobilesPage();
 	}
 	
-	public void Mens_Lifestyle_Link()
+	public Mens_LifestylePage Mens_Lifestyle_Link() throws Exception
 	{
 		mens_lifistyle.click();
+		return new Mens_LifestylePage();
+		
 	}
-	public void Womens_Lifestyle_Link()
+	public Womens_LifestylePage Womens_Lifestyle_Link() throws Exception
 	{
 		womens_lifestyle.click();
+		return new Womens_LifestylePage();
 	}
 	
 	public void Electronics_Link()
@@ -76,24 +79,28 @@ public class HomePage extends BasePage
 		electronics.click();
 	}
 
-	public void Watches_link()
+	public WatchesPage Watches_link() throws Exception
 	{
 		watches.click();
+		return new WatchesPage();
 	}
 	
-	public void HomeDecore_link()
+	public HomeandDecorePage HomeDecore_link() throws Exception
 	{
 		homed_decor.click();
+		return new HomeandDecorePage();
 	}
 	
-	public void PersonalCare_Link()
+	public Personal_CarePage PersonalCare_Link() throws Exception
 	{
 		personal_care.click();
+		return new Personal_CarePage();
 	}
 	
-	public void HealthandFitness_link()
+	public HealthandFitnessPage HealthandFitness_link() throws Exception
 	{
 		health_fitness.click();
+		return new HealthandFitnessPage();
 	}
 	
 	public void Books_link()

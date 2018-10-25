@@ -50,14 +50,14 @@ public class HomePageTest extends BasePage
 	}
 	
 	@Test
-	public void verifymeslifestyle()
+	public void verifymeslifestyle() throws Exception
 	{
 		homepage.Mens_Lifestyle_Link();
 		System.out.println("Suceessfully Click on Mens's Lifestyle link");
 	}
 	
 	@Test
-	public void verifywomeneslifestyle()
+	public void verifywomeneslifestyle() throws Exception
 	{
 		homepage.Womens_Lifestyle_Link();
 		System.out.println("Suceessfully Click on Women's Lifestyle link");
@@ -70,26 +70,26 @@ public class HomePageTest extends BasePage
 		System.out.println("Suceessfully Click on Electronics link");
 	}
 	@Test
-	public void verifywateches()
+	public void verifywateches() throws Exception
 	{
 		homepage.Watches_link();
 		System.out.println("Suceessfully Click on Watches link");
 	}
 	@Test
-	public void verifyhomeanddecore()
+	public void verifyhomeanddecore() throws Exception
 	{
 		homepage.HomeDecore_link();
 		System.out.println("Suceessfully Click on HomeDecore_link ");
 	}
 	
 	@Test
-	public void verifypersonalcare()
+	public void verifypersonalcare() throws Exception
 	{
 		homepage.PersonalCare_Link();
 		System.out.println("Suceessfully Click on PersonalCare_Link ");
 	}
 	@Test
-	public void verifyhealthandfitness()
+	public void verifyhealthandfitness() throws Exception
 	{
 		homepage.HealthandFitness_link();
 		System.out.println("Suceessfully Click on Health And Fitness");
