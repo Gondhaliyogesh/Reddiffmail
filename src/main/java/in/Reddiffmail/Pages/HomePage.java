@@ -35,6 +35,12 @@ public class HomePage extends BasePage
 	@FindBy(partialLinkText="Personal Care")
 	private WebElement personal_care;
 	
+	@FindBy(partialLinkText="Health & Fitness")
+	private WebElement health_fitness;
+	
+	@FindBy(partialLinkText="Books")
+	private WebElement books;
+	
 	public HomePage() throws Exception
 	{
 		PageFactory.initElements(driver, this);
@@ -84,4 +90,15 @@ public class HomePage extends BasePage
 	{
 		personal_care.click();
 	}
+	
+	public void HealthandFitness_link()
+	{
+		health_fitness.click();
+	}
+	
+	public void Books_link()
+	{
+		books.click();
+	}
+	
 }

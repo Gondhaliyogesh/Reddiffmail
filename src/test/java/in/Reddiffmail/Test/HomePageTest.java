@@ -88,6 +88,19 @@ public class HomePageTest extends BasePage
 		homepage.PersonalCare_Link();
 		System.out.println("Suceessfully Click on PersonalCare_Link ");
 	}
+	@Test
+	public void verifyhealthandfitness()
+	{
+		homepage.HealthandFitness_link();
+		System.out.println("Suceessfully Click on Health And Fitness");
+	}
+	
+	@Test
+	public void verifyBooks()
+	{
+		homepage.Books_link();
+		System.out.println("Suceessfully Click on Books");
+	}
 	
 	@AfterMethod
 	public void End()

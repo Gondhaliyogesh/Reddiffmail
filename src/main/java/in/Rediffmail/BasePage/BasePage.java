@@ -10,6 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
 public class BasePage
 {
@@ -38,6 +39,11 @@ public class BasePage
 			
 			driver=new FirefoxDriver();
 			System.out.println("Launch Firefox Successfully");
+		}
+		else if((browsername.equals("HtmlUnit")))
+		{
+			driver=new HtmlUnitDriver();
+			System.out.println("Launch HtmlUnit Working Successfully");
 		}
 		else
 		{
